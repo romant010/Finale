@@ -8,6 +8,6 @@ chrome = webdriver.Chrome()
 try:
     chrome.get('http://192.168.99.100:5000/')
     print(chrome.title)
-except:
-    chrome.quit()
+# except:
+    # chrome.quit()
 
